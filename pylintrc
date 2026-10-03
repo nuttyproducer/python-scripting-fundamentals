@@ -1,0 +1,14 @@
+[MESSAGES CONTROL]
+# Deze cursus (Scripting Essentials) is een inleiding voor eerstejaars zonder
+# programmeerervaring. Onderstaande regels zijn bedoeld voor productiecodebases
+# (herbruikbare modules, naamgevingsconventies in grotere projecten) en leveren
+# in lesnotebooks vooral verwarrende ruis op, geen leerwaarde. Echte foutdetectie
+# (undefined variables, syntaxfouten, ...) blijft gewoon actief.
+disable=
+    missing-module-docstring,
+    missing-function-docstring,
+    missing-class-docstring,
+    invalid-name,
+    too-few-public-methods,
+    singleton-comparison,
+    wrong-import-position
